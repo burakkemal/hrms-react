@@ -1,38 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.b1 {
+  left: 450px;
+  top: 25px;
+}
+.searchFilter {
+  position: absolute;
+  left: 7em;
+  top: 8px;
+  margin-top: 40px;
+  border-radius: "10px";
+  border-color: black;
+}
+.lastadv {
+  font-size: 26px;
+  font-style: initial;
+  margin-right: 2em;
+}
+.p1 {
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  font-size: 30px;
+  font-family: unset;
+}
+.my-2em {
+  margin-top: 3em;
+  margin-bottom: 6em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav1 {
+  margin-top: 6em;
+}
+.mid {
+  margin-top: 14px;
+  height: 21em;
+  background-image: url("https://raw.githubusercontent.com/kodilan-com/frontend/master/src/assets/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.8;
+}
+.div1 {
+  background-color: whitesmoke;
+  height: 8em;
+}
+.button1 {
+  position: absolute;
+  top: 80px;
+  left: 30em;
+  width: 5em;
+  height: 48px;
+}
+.h4-1 {
+  position: inherit;
+  right: 18em;
+  top: 55px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10em;
+  margin-left: 17em;
+}
+.dropdown1 {
+  margin-top: 39px;
+  width: 48px;
+  height: 48px;
+  right: 130px;
+}
+.ui.selection.dropdown {
+  position: absolute;
+  left: 2em;
+  margin-top: 80px;
+  width: 27em;
+  height: 55px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card1 {
+  right: 3em;
+  height: 16em;
+  width: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.buttonall {
+  position: absolute;
+  right: 653px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.advadd {
+  position: absolute;
+  right: 400px;
+  top: 25px;
 }
